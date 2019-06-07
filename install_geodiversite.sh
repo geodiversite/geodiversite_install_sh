@@ -62,7 +62,7 @@ svn co svn://zone.spip.org/spip-zone/_plugins_/notifications/trunk notifications
 svn co svn://zone.spip.org/spip-zone/_plugins_/opensearch
 svn co svn://zone.spip.org/spip-zone/_plugins_/selecteur_generique/trunk selecteur_generique
 svn co svn://zone.spip.org/spip-zone/_plugins_/socialtags
-svn co svn://zone.spip.org/spip-zone/_plugins_/spipicious_jquery/trunk spipicious_jquery
+svn co svn://zone.spip.org/spip-zone/_plugins_/spipicious_jquery/branches/v1 spipicious_jquery
 svn co svn://zone.spip.org/spip-zone/_plugins_/xmlrpc/trunk xmlrpc
 svn co svn://zone.spip.org/spip-zone/_plugins_/zen-garden/trunk zen-garden
 
