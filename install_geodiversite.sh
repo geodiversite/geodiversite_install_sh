@@ -1,30 +1,32 @@
-# récupération de SPIP 3.1.X
-svn co svn://trac.rezo.net/spip/branches/spip-3.1 .
+# récupération de SPIP 3.2.X à l'aide de https://git.spip.net/spip-contrib-outils/checkout
+checkout spip -b3.2 geodiversite
 
-# récupération des plugins à placer dans extensions
+cd geodiversite
+
+# récupération des plugins à placer dans plugins-dist
 cd plugins-dist
 
-svn co svn://zone.spip.org/spip-zone/_plugins_/date_inscription/trunk date_inscription
-svn co svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene/trunk diogene
-svn co svn://zone.spip.org/spip-zone/_plugins_/emballe_medias/emballe_medias/branches/v1.3 emballe_medias
-svn co svn://zone.spip.org/spip-zone/_plugins_/facteur/trunk facteur
-svn co https://github.com/geodiversite/geodiversite/trunk/ geodiversite
-svn co svn://zone.spip.org/spip-zone/_plugins_/gis/trunk gis
-svn co svn://zone.spip.org/spip-zone/_plugins_/jquery_file_upload/trunk jquery_file_upload
-svn co svn://zone.spip.org/spip-zone/_plugins_/legendes/branches/v1 legendes
-svn co svn://zone.spip.org/spip-zone/_plugins_/mediaspip_player/trunk mediaspip_player
-svn co svn://zone.spip.org/spip-zone/_plugins_/menus/trunk menus
-svn co svn://zone.spip.org/spip-zone/_plugins_/mesfavoris/trunk mesfavoris
-svn co svn://zone.spip.org/spip-zone/_plugins_/nospam/trunk nospam
-svn co svn://zone.spip.org/spip-zone/_plugins_/notifications/trunk notifications
-svn co svn://zone.spip.org/spip-zone/_plugins_/nuage/trunk nuage
-svn co svn://zone.spip.org/spip-zone/_plugins_/pages/trunk pages
-svn co svn://zone.spip.org/spip-zone/_plugins_/palette/trunk palette
-svn co svn://zone.spip.org/spip-zone/_plugins_/polyhierarchie/trunk polyhierarchie
-svn co svn://zone.spip.org/spip-zone/_plugins_/saisies/trunk saisies
-svn co svn://zone.spip.org/spip-zone/_plugins_/emballe_medias/swfupload/trunk swfupload
-svn co svn://zone.spip.org/spip-zone/_plugins_/z-core/trunk z-core
-svn co svn://zone.spip.org/spip-zone/_plugins_/spip-bonux/trunk spip-bonux
+git clone https://git.spip.net/spip-contrib-extensions/date_inscription
+git clone https://git.spip.net/spip-contrib-extensions/diogene
+git clone -b v1.3 https://git.spip.net/spip-contrib-extensions/emballe_medias
+git clone https://git.spip.net/spip-contrib-extensions/facteur
+git clone https://github.com/geodiversite/geodiversite
+git clone https://git.spip.net/spip-contrib-extensions/gis
+git clone https://git.spip.net/spip-contrib-extensions/jquery_file_upload
+git clone https://git.spip.net/spip-contrib-extensions/legendes
+git clone https://git.spip.net/spip-contrib-extensions/mediaspip_player
+git clone https://git.spip.net/spip-contrib-extensions/menus
+git clone https://git.spip.net/spip-contrib-extensions/mesfavoris
+git clone https://git.spip.net/spip-contrib-extensions/nospam
+git clone https://git.spip.net/spip-contrib-extensions/notifications
+git clone https://git.spip.net/spip-contrib-extensions/nuage
+git clone https://git.spip.net/spip-contrib-extensions/pages
+git clone https://git.spip.net/spip-contrib-extensions/palette
+git clone https://git.spip.net/spip-contrib-extensions/polyhierarchie
+git clone https://git.spip.net/spip-contrib-extensions/saisies
+git clone https://git.spip.net/spip-contrib-extensions/emballe_medias_swfupload
+git clone https://git.spip.net/spip-contrib-extensions/z-core
+git clone https://git.spip.net/spip-contrib-extensions/spip-bonux
 
 cd ..
 
@@ -32,38 +34,34 @@ cd ..
 mkdir plugins
 cd plugins
 
-svn co svn://zone.spip.org/spip-zone/_plugins_/champs_extras_core/trunk cextras_core
-svn co svn://zone.spip.org/spip-zone/_plugins_/champs_extras_interface/trunk cextras_interface
-svn co svn://zone.spip.org/spip-zone/_plugins_/compositions/trunk compositions
-svn co svn://zone.spip.org/spip-zone/_plugins_/crayons/trunk crayons
-svn co svn://zone.spip.org/spip-zone/_plugins_/criteres_suivant_precedent/trunk criteres_suivant_precedent
-svn co svn://zone.spip.org/spip-zone/_plugins_/crud
-svn co svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_geo/trunk diogene_geo
-svn co svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_licence/trunk diogene_licence
-svn co svn://zone.spip.org/spip-zone/_plugins_/diogene/diogene_complements/diogene_mots/trunk diogene_mots
-svn co svn://zone.spip.org/spip-zone/_plugins_/embed_code/trunk embed_code
-svn co svn://zone.spip.org/spip-zone/_plugins_/facteur/trunk facteur
-svn co svn://zone.spip.org/spip-zone/_plugins_/fulltext/trunk fulltext
-svn co https://github.com/geodiversite/geodiversite_albums/trunk/ geodiversite_albums
-svn co https://github.com/geodiversite/geodiversite_balades/trunk/ geodiversite_balades
-svn co svn://zone.spip.org/spip-zone/_plugins_/gis_geometries/trunk gis_geometries
-svn co svn://zone.spip.org/spip-zone/_plugins_/gravatar/trunk gravatar
-svn co svn://zone.spip.org/spip-zone/_plugins_/licence/trunk licence
-svn co svn://zone.spip.org/spip-zone/_plugins_/mailshot/trunk mailshot
-svn co svn://zone.spip.org/spip-zone/_plugins_/mailsubscribers/trunk mailsubscribers
-svn co svn://zone.spip.org/spip-zone/_plugins_/emballe_medias/media_collections/trunk media_collections
-svn co svn://zone.spip.org/spip-zone/_plugins_/memoization/trunk memoization
-svn co svn://zone.spip.org/spip-zone/_plugins_/metasplus/branches/v1 metasplus
-svn co svn://zone.spip.org/spip-zone/_plugins_/twitter/trunk twitter
-svn co svn://zone.spip.org/spip-zone/_plugins_/minibando/trunk minibando
-svn co svn://zone.spip.org/spip-zone/_plugins_/newsletters/trunk newsletters
-svn co svn://zone.spip.org/spip-zone/_plugins_/notation/trunk notation
-svn co svn://zone.spip.org/spip-zone/_plugins_/notifications/trunk notifications
-svn co svn://zone.spip.org/spip-zone/_plugins_/opensearch/trunk opensearch
-svn co svn://zone.spip.org/spip-zone/_plugins_/selecteur_generique/trunk selecteur_generique
-svn co svn://zone.spip.org/spip-zone/_plugins_/socialtags/trunk socialtags
-svn co svn://zone.spip.org/spip-zone/_plugins_/spipicious_jquery/branches/v1 spipicious_jquery
-svn co svn://zone.spip.org/spip-zone/_plugins_/xmlrpc/trunk xmlrpc
-svn co svn://zone.spip.org/spip-zone/_plugins_/zen-garden/trunk zen-garden
+git clone https://git.spip.net/spip-contrib-extensions/champs_extras_core
+git clone https://git.spip.net/spip-contrib-extensions/champs_extras_interface
+git clone https://git.spip.net/spip-contrib-extensions/compositions
+git clone https://git.spip.net/spip-contrib-extensions/crayons
+git clone https://git.spip.net/spip-contrib-extensions/criteres_suivant_precedent
+git clone https://git.spip.net/spip-contrib-extensions/crud
+git clone https://git.spip.net/spip-contrib-extensions/diogene_geo
+git clone https://git.spip.net/spip-contrib-extensions/diogene_licence
+git clone https://git.spip.net/spip-contrib-extensions/diogene_mots
+git clone https://git.spip.net/spip-contrib-extensions/embed_code
+git clone https://git.spip.net/spip-contrib-extensions/fulltext
+git clone https://github.com/geodiversite/geodiversite_albums
+git clone https://github.com/geodiversite/geodiversite_balades
+git clone https://git.spip.net/spip-contrib-extensions/gis_geometries
+git clone https://git.spip.net/spip-contrib-extensions/gravatar
+git clone https://git.spip.net/spip-contrib-extensions/licence
+git clone https://git.spip.net/spip-contrib-extensions/mailshot
+git clone https://git.spip.net/spip-contrib-extensions/mailsubscribers
+git clone https://git.spip.net/spip-contrib-extensions/emballe_medias_collections
+git clone https://git.spip.net/spip-contrib-extensions/memoization
+git clone -b v1 https://git.spip.net/spip-contrib-extensions/metasplus
+git clone https://git.spip.net/spip-contrib-extensions/twitter
+git clone https://git.spip.net/spip-contrib-extensions/minibando
+git clone https://git.spip.net/spip-contrib-extensions/newsletters
+git clone https://git.spip.net/spip-contrib-extensions/notation
+git clone https://git.spip.net/spip-contrib-extensions/opensearch
+git clone https://git.spip.net/spip-contrib-extensions/selecteur_generique
+git clone https://git.spip.net/spip-contrib-extensions/socialtags
+git clone https://git.spip.net/spip-contrib-extensions/spipicious_jquery
 
 cd ..
