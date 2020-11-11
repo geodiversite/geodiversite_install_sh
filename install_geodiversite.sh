@@ -14,7 +14,6 @@ git clone https://github.com/geodiversite/geodiversite
 git clone https://git.spip.net/spip-contrib-extensions/gis
 git clone https://git.spip.net/spip-contrib-extensions/jquery_file_upload
 git clone https://git.spip.net/spip-contrib-extensions/legendes
-git clone https://git.spip.net/spip-contrib-extensions/mediaspip_player
 git clone https://git.spip.net/spip-contrib-extensions/menus
 git clone https://git.spip.net/spip-contrib-extensions/mesfavoris
 git clone https://git.spip.net/spip-contrib-extensions/nospam
