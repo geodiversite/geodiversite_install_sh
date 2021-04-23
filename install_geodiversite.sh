@@ -54,7 +54,6 @@ git clone https://git.spip.net/spip-contrib-extensions/mailsubscribers
 git clone https://git.spip.net/spip-contrib-extensions/emballe_medias_collections
 git clone https://git.spip.net/spip-contrib-extensions/memoization
 git clone -b v1 https://git.spip.net/spip-contrib-extensions/metasplus
-git clone https://git.spip.net/spip-contrib-extensions/twitter
 git clone https://git.spip.net/spip-contrib-extensions/minibando
 git clone https://git.spip.net/spip-contrib-extensions/newsletters
 git clone https://git.spip.net/spip-contrib-extensions/notation
