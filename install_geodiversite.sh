@@ -16,6 +16,7 @@ git clone https://git.spip.net/spip-contrib-extensions/jquery_file_upload
 git clone https://git.spip.net/spip-contrib-extensions/legendes
 git clone https://git.spip.net/spip-contrib-extensions/menus
 git clone https://git.spip.net/spip-contrib-extensions/mesfavoris
+git clone https://git.spip.net/spip-contrib-extensions/metasplus
 git clone https://git.spip.net/spip-contrib-extensions/nospam
 git clone https://git.spip.net/spip-contrib-extensions/notifications
 git clone https://git.spip.net/spip-contrib-extensions/nuage
@@ -53,7 +54,6 @@ git clone https://git.spip.net/spip-contrib-extensions/mailshot
 git clone https://git.spip.net/spip-contrib-extensions/mailsubscribers
 git clone https://git.spip.net/spip-contrib-extensions/emballe_medias_collections
 git clone https://git.spip.net/spip-contrib-extensions/memoization
-git clone -b v1 https://git.spip.net/spip-contrib-extensions/metasplus
 git clone https://git.spip.net/spip-contrib-extensions/minibando
 git clone https://git.spip.net/spip-contrib-extensions/newsletters
 git clone https://git.spip.net/spip-contrib-extensions/notation
