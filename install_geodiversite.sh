@@ -34,6 +34,7 @@ cd ..
 mkdir plugins
 cd plugins
 
+git clone https://git.spip.net/spip-contrib-extensions/centre_image
 git clone https://git.spip.net/spip-contrib-extensions/champs_extras_core
 git clone https://git.spip.net/spip-contrib-extensions/champs_extras_interface
 git clone https://git.spip.net/spip-contrib-extensions/compositions
