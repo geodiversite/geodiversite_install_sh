@@ -23,7 +23,7 @@ git clone https://git.spip.net/spip-contrib-extensions/nuage
 git clone https://git.spip.net/spip-contrib-extensions/pages
 git clone https://git.spip.net/spip-contrib-extensions/palette
 git clone https://git.spip.net/spip-contrib-extensions/polyhierarchie
-git clone https://git.spip.net/spip-contrib-extensions/saisies
+git clone -b v3 https://git.spip.net/spip-contrib-extensions/saisies
 git clone https://git.spip.net/spip-contrib-extensions/emballe_medias_swfupload
 git clone https://git.spip.net/spip-contrib-extensions/z-core
 git clone -b v3 https://git.spip.net/spip-contrib-extensions/spip-bonux
