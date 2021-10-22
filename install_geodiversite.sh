@@ -6,6 +6,8 @@ cd geodiversite
 # récupération des plugins à placer dans plugins-dist
 cd plugins-dist
 
+git clone https://git.spip.net/spip-contrib-extensions/centre_image
+git clone https://git.spip.net/spip-contrib-extensions/compositions
 git clone https://git.spip.net/spip-contrib-extensions/date_inscription
 git clone https://git.spip.net/spip-contrib-extensions/diogene
 git clone -b v1.3 https://git.spip.net/spip-contrib-extensions/emballe_medias
@@ -34,10 +36,8 @@ cd ..
 mkdir plugins
 cd plugins
 
-git clone https://git.spip.net/spip-contrib-extensions/centre_image
 git clone https://git.spip.net/spip-contrib-extensions/champs_extras_core
 git clone https://git.spip.net/spip-contrib-extensions/champs_extras_interface
-git clone https://git.spip.net/spip-contrib-extensions/compositions
 git clone https://git.spip.net/spip-contrib-extensions/crayons
 git clone https://git.spip.net/spip-contrib-extensions/criteres_suivant_precedent
 git clone https://git.spip.net/spip-contrib-extensions/crud
