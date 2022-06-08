@@ -11,7 +11,7 @@ git clone https://git.spip.net/spip-contrib-extensions/compositions
 git clone https://git.spip.net/spip-contrib-extensions/date_inscription
 git clone https://git.spip.net/spip-contrib-extensions/diogene
 git clone -b v1.3 https://git.spip.net/spip-contrib-extensions/emballe_medias
-git clone https://git.spip.net/spip-contrib-extensions/facteur
+git clone -b v4 https://git.spip.net/spip-contrib-extensions/facteur
 git clone https://github.com/geodiversite/geodiversite
 git clone https://git.spip.net/spip-contrib-extensions/gis
 git clone https://git.spip.net/spip-contrib-extensions/jquery_file_upload
@@ -24,7 +24,7 @@ git clone https://git.spip.net/spip-contrib-extensions/notifications
 git clone https://git.spip.net/spip-contrib-extensions/nuage
 git clone https://git.spip.net/spip-contrib-extensions/pages
 git clone https://git.spip.net/spip-contrib-extensions/palette
-git clone https://git.spip.net/spip-contrib-extensions/polyhierarchie
+git clone -b v3 https://git.spip.net/spip-contrib-extensions/polyhierarchie
 git clone -b v3 https://git.spip.net/spip-contrib-extensions/saisies
 git clone https://git.spip.net/spip-contrib-extensions/emballe_medias_swfupload
 git clone https://git.spip.net/spip-contrib-extensions/z-core
@@ -58,7 +58,7 @@ git clone https://git.spip.net/spip-contrib-extensions/memoization
 git clone https://git.spip.net/spip-contrib-extensions/minibando
 git clone https://git.spip.net/spip-contrib-extensions/newsletters
 git clone https://git.spip.net/spip-contrib-extensions/notation
-git clone https://git.spip.net/spip-contrib-extensions/opensearch
+git clone -b 0.2 https://git.spip.net/spip-contrib-extensions/opensearch
 git clone https://git.spip.net/spip-contrib-extensions/photoswipe
 git clone https://git.spip.net/spip-contrib-extensions/selecteur_generique
 git clone https://git.spip.net/spip-contrib-extensions/socialtags
