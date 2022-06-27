@@ -33,8 +33,8 @@ cd ..
 mkdir plugins
 cd plugins
 
-git clone https://git.spip.net/spip-contrib-extensions/champs_extras_core
-git clone https://git.spip.net/spip-contrib-extensions/champs_extras_interface
+git clone -b v3 https://git.spip.net/spip-contrib-extensions/champs_extras_core
+git clone -b 3.5 https://git.spip.net/spip-contrib-extensions/champs_extras_interface
 git clone https://git.spip.net/spip-contrib-extensions/crayons
 git clone https://git.spip.net/spip-contrib-extensions/criteres_suivant_precedent
 git clone https://git.spip.net/spip-contrib-extensions/crud
@@ -50,7 +50,7 @@ git clone https://git.spip.net/spip-contrib-extensions/mailsubscribers
 git clone https://git.spip.net/spip-contrib-extensions/memoization
 git clone https://git.spip.net/spip-contrib-extensions/minibando
 git clone https://git.spip.net/spip-contrib-extensions/newsletters
-git clone https://git.spip.net/spip-contrib-extensions/notation
+git clone -b v2 https://git.spip.net/spip-contrib-extensions/notation
 git clone -b 0.2 https://git.spip.net/spip-contrib-extensions/opensearch
 git clone https://git.spip.net/spip-contrib-extensions/photoswipe
 git clone https://git.spip.net/spip-contrib-extensions/selecteur_generique
