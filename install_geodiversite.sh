@@ -37,7 +37,6 @@ git clone -b v3 https://git.spip.net/spip-contrib-extensions/champs_extras_core
 git clone -b 3.5 https://git.spip.net/spip-contrib-extensions/champs_extras_interface
 git clone https://git.spip.net/spip-contrib-extensions/crayons
 git clone https://git.spip.net/spip-contrib-extensions/criteres_suivant_precedent
-git clone https://git.spip.net/spip-contrib-extensions/crud
 git clone https://git.spip.net/spip-contrib-extensions/embed_code
 git clone https://git.spip.net/spip-contrib-extensions/fulltext
 git clone https://github.com/geodiversite/geodiversite_albums
