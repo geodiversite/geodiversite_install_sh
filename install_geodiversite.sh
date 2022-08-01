@@ -54,5 +54,6 @@ git clone https://git.spip.net/spip-contrib-extensions/photoswipe
 git clone https://git.spip.net/spip-contrib-extensions/selecteur_generique
 git clone https://git.spip.net/spip-contrib-extensions/socialtags
 git clone https://git.spip.net/spip-contrib-extensions/spipicious_jquery
+git clone https://git.spip.net/spip-contrib-extensions/yaml
 
 cd ..
