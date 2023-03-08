@@ -11,7 +11,7 @@ git clone https://git.spip.net/spip-contrib-extensions/compositions
 git clone https://git.spip.net/spip-contrib-extensions/date_inscription
 git clone https://git.spip.net/spip-contrib-extensions/facteur
 git clone https://github.com/geodiversite/geodiversite
-git clone https://git.spip.net/spip-contrib-extensions/gis
+git clone -b v4 https://git.spip.net/spip-contrib-extensions/gis
 git clone -b 1.14 https://git.spip.net/spip/jquery_ui
 git clone https://git.spip.net/spip-contrib-extensions/legendes
 git clone https://git.spip.net/spip-contrib-extensions/menus
