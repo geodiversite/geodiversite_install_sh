@@ -36,7 +36,7 @@ cd plugins
 git clone https://git.spip.net/spip-contrib-extensions/champs_extras_core
 git clone https://git.spip.net/spip-contrib-extensions/champs_extras_interface
 git clone https://git.spip.net/spip-contrib-extensions/crayons
-git clone https://git.spip.net/spip-contrib-extensions/criteres_suivant_precedent
+git clone -b v2 https://git.spip.net/spip-contrib-extensions/criteres_suivant_precedent
 git clone https://git.spip.net/spip-contrib-extensions/fulltext
 git clone https://github.com/geodiversite/geodiversite_albums
 git clone https://github.com/geodiversite/geodiversite_balades
