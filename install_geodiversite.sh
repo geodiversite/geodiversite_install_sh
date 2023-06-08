@@ -51,7 +51,7 @@ git clone https://git.spip.net/spip-contrib-extensions/newsletters
 git clone https://git.spip.net/spip-contrib-extensions/notation
 git clone https://git.spip.net/spip-contrib-extensions/opensearch
 git clone https://git.spip.net/spip-contrib-extensions/photoswipe
-git clone https://git.spip.net/spip-contrib-extensions/selecteur_generique
+git clone -b v1 https://git.spip.net/spip-contrib-extensions/selecteur_generique
 git clone https://git.spip.net/spip-contrib-extensions/socialtags
 git clone https://git.spip.net/spip-contrib-extensions/spipicious_jquery
 git clone https://git.spip.net/spip-contrib-extensions/yaml
