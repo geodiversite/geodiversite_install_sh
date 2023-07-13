@@ -1,4 +1,4 @@
-# récupération de SPIP 4.1.X à l'aide de https://git.spip.net/spip-contrib-outils/checkout
+# récupération de SPIP 4.2.X à l'aide de https://git.spip.net/spip-contrib-outils/checkout
 checkout spip -b4.2 geodiversite
 
 cd geodiversite
