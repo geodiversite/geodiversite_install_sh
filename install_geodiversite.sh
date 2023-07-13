@@ -1,5 +1,5 @@
 # récupération de SPIP 4.1.X à l'aide de https://git.spip.net/spip-contrib-outils/checkout
-checkout spip -b4.1 geodiversite
+checkout spip -b4.2 geodiversite
 
 cd geodiversite
 
@@ -36,7 +36,7 @@ cd plugins
 git clone https://git.spip.net/spip-contrib-extensions/champs_extras_core
 git clone https://git.spip.net/spip-contrib-extensions/champs_extras_interface
 git clone https://git.spip.net/spip-contrib-extensions/crayons
-git clone -b v2 https://git.spip.net/spip-contrib-extensions/criteres_suivant_precedent
+git clone https://git.spip.net/spip-contrib-extensions/criteres_suivant_precedent
 git clone https://git.spip.net/spip-contrib-extensions/fulltext
 git clone https://github.com/geodiversite/geodiversite_albums
 git clone https://github.com/geodiversite/geodiversite_balades
@@ -51,7 +51,7 @@ git clone https://git.spip.net/spip-contrib-extensions/newsletters
 git clone https://git.spip.net/spip-contrib-extensions/notation
 git clone https://git.spip.net/spip-contrib-extensions/opensearch
 git clone https://git.spip.net/spip-contrib-extensions/photoswipe
-git clone -b v1 https://git.spip.net/spip-contrib-extensions/selecteur_generique
+git clone https://git.spip.net/spip-contrib-extensions/selecteur_generique
 git clone https://git.spip.net/spip-contrib-extensions/socialtags
 git clone https://git.spip.net/spip-contrib-extensions/spipicious_jquery
 git clone https://git.spip.net/spip-contrib-extensions/yaml
