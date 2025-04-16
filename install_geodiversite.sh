@@ -21,7 +21,6 @@ git clone https://git.spip.net/spip-contrib-extensions/nospam
 git clone https://git.spip.net/spip-contrib-extensions/notifications
 git clone https://git.spip.net/spip-contrib-extensions/nuage
 git clone https://git.spip.net/spip-contrib-extensions/pages
-git clone https://git.spip.net/spip-contrib-extensions/palette
 git clone https://git.spip.net/spip-contrib-extensions/polyhierarchie
 git clone https://git.spip.net/spip-contrib-extensions/saisies
 git clone https://git.spip.net/spip-contrib-extensions/z-core
